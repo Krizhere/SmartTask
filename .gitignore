@@ -1,0 +1,24 @@
+# Local Hugging Face scripts
+hf_chatmodel.py
+hf_embedding.py
+apps/google_agent.py
+apps/my_tasks.db
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Common local tooling artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
